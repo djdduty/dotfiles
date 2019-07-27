@@ -3,6 +3,8 @@ local env = {}
 
 env.term = os.getenv("TERMINAL") or "xst"
 env.editor = os.getenv("EDITOR") or "vim"
+env.browser = os.getenv("BROWSER") or "chromium"
+env.filemanager = os.getenv("FILEMANAGER") or "nemo"
 
 -- Bellow are arguments to call a <class> and <exec> a program by terminal
 -- post an issue if your terminal is not listed or to add new
