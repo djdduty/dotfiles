@@ -103,3 +103,4 @@ source $ZSH/oh-my-zsh.sh
 
 export EDITOR=vim
 export BROWSER=chromium
+source /usr/share/zsh-theme-powerlevel9k/powerlevel9k.zsh-theme
